@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+.contenedor {
+    width: min(900px, 90%);
+    margin: 40px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    text-align: left;
+}
+
+.mensaje-exito {
+    color: green;
+}
+
+.mensaje-error {
+    color: darkred;
+}  
